@@ -3,6 +3,7 @@ import Counter from './Counter'
 import Team from './Team'
 import Users from './Users'
 import Friends from './Friends'
+import Posts from './Posts'
 
 function App() {
   function handleClick() {
@@ -19,8 +20,9 @@ function App() {
   return (
     <>
       <h3>React Core Concepts 2</h3>
+      <Posts></Posts>
 
-      <Friends></Friends>
+      {/* <Friends></Friends>
 
       <Users></Users>
 
@@ -34,8 +36,7 @@ function App() {
       <br /> <br />
       <button onClick={() => { alert('third click') }}>Third</button>
       <br /><br />
-      {/*  */}
-      <button onClick={() => addToFive(3)}>Four</button>
+      <button onClick={() => addToFive(3)}>Four</button> */}
     </>
   )
 }
